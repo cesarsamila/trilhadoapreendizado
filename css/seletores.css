@@ -1,0 +1,50 @@
+div{
+
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(217, 235, 250);
+    font-size:large;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.b1{
+
+    background-color:rgb(109, 191, 238);
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    width: 65px;
+    height: 20px;
+
+}
+
+.b2{
+
+    background-color:rgb(169, 109, 238);
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    width: 65px;
+    height: 20px;
+
+}
+
+.agrupamento{
+
+    background-color: lightgray;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+#ei{
+
+    background-color: rgb(128, 233, 201);
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+
+}

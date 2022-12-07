@@ -1,0 +1,56 @@
+.header{
+    border-top: 10px solid rgb(0, 64, 64);
+    display: flex;
+    justify-content: space-between;
+}
+.header > ul{  
+    list-style-type: none;
+    display: flex;
+}
+
+.header > ul{
+font-size:larger;
+}
+
+.img2{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(188, 236, 188) ;
+    vertical-align: center;
+    text-align: center;
+}
+.img2 img{
+height: 100%;
+}
+
+.paragraf{
+    color: rgb(0, 64, 64);
+}
+
+.paragrafo{
+    text-align: center;
+    font-size: large;
+}
+
+.fim{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    width: 100%;
+}
+
+.fim p{
+    text-align: center;
+    border: 1px solid black;
+    width: 20%;
+}
+
+.paragrafoo{
+    background-color: rgb(188, 236, 188) ;
+    text-align: center;
+
+}
+
+.cs{
+    color: rgb(0, 64, 64);
+}

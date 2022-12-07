@@ -1,0 +1,1 @@
+prompt("Scrit JS em arquivo Externo")

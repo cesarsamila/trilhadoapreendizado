@@ -1,0 +1,64 @@
+body{
+    /* altera propriedades gerais do conteudo html */
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%; /* largura toal do corpo do texto */
+    margin: 0 auto; /* centraliza o conteudo */
+    background: linear-gradient(to right, #0b1726, #1f3f66);
+}  
+
+h2{
+    color: #1f3f66;
+}
+
+header{ /* altera o cxabeçalho do site */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #161616;
+    border-radius: 10px; /* arredonda os cantos do elemento */
+    margin-top: 20px;
+}
+
+.logo img{ /* altera propriedades do logo tag img */
+    width: 50%; /* altera o tamanho da tag img */
+    padding-top: 25px; /* afasta a imagem do top do quadrdado preto */
+}
+
+.navegacao{
+    overflow: hidden; /* esconde a barra de rolagem */
+}
+
+.navegacao a{ /* altera os hyperlinks da classe navegação */
+    float: right; /* posiciona o conteudo a direita */
+    color: rgb(173,173,173);
+    text-decoration: none; /* retira o sublinhado do hypoerlink */
+    padding: 10px;
+}
+
+.navegacao a:hover{ /* altera a cor dos hyperlinks quando passa o mouse - não é permanente */
+    color: #e32936;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.principal{ 
+    display: flex; /* alinha os conteudos ao lado do outro cd */
+    flex-direction: row;
+}
+
+.conteudo{
+    float: left;
+    background-color: gainsboro;
+    text-align: left;
+    padding: 15px; /* para o texto não ficar colado no card */
+    margin: 15px 2px 25px 2px; /* define margens em relação ao body */
+}
+
+.lateral{
+    width: 80%;
+}
+
+.rodape{
+    text-align: center;
+    color: darkgrey;
+    font-size: 10px;
+
+}

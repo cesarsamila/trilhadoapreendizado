@@ -1,0 +1,45 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(241, 240, 240);
+}
+
+.nav{
+    background-color: #666666;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.links a{ 
+    color: #ffffff;
+}
+
+.links a:hover{ /* muda a cor do hyperlink */
+    color: #000000;
+}
+
+.links{
+text-align: right;
+}
+
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+.rodape{
+    background-color: #666666;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 10px;
+}
